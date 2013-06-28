@@ -1,3 +1,25 @@
-body {
-  /* rules go here */
+#navigation {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+color: #ffffff;
+height: 26px;
+text-align: left;
+padding-top: 8px;
+background-color: rgba(1, 1, 1, 0.8);
+}
+
+#navigation a {
+font-size: 14.5px;
+font-weight: bold;
+font-family: arial;
+padding-left: 11px;
+padding-right: 11px;
+color: lightgray;
+text-decoration: none;
+}
+
+#navigation a:hover {
+color: gray;
 }
