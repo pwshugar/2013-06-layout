@@ -16,10 +16,25 @@ font-weight: bold;
 font-family: arial;
 padding-left: 11px;
 padding-right: 11px;
-color: lightgray;
+color: silver;
 text-decoration: none;
 }
 
 #navigation a:hover {
-color: gray;
+color: white;
+}
+
+button {
+  position:relative;
+  top: 46px;
+  color: white;
+  background-color: #FF4D4D;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 12px;
+  border: 2px solid;
+  border-radius: 5px;
+  width: 80px;
+  height:36px;
+  left: 2000px;
 }
