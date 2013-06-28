@@ -38,3 +38,21 @@ button {
   height:36px;
   left: 2000px;
 }
+
+img {
+    position:absolute;
+    -webkit-transform:scale(0.57);
+    left:51%; 
+    top:50%;
+    margin-left:-296px;
+    margin-top:-375px;
+}
+
+input {    position:absolute;
+    left:48%; 
+    top:50%;
+    margin-left:-296px;
+    margin-top:-200px;
+    width: 680px;
+    height: 28px;
+}
