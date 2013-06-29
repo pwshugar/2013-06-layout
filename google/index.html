@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
   <title>Shugle</title>
+<script>function formSubmit(){document.getElementById("form").submit();}</script>
   </head>
   <body>
     <div id="navigation">
@@ -21,10 +22,10 @@
     </div>
     <button type="button" id="signin">SIGN IN</button>
     <img src="Shugle.gif"/>
-    <form action="http://www.google.com/search" method="get">
+    <form id="form" action="http://www.google.com/search" method="get">
       <input type="text" id="text" name="q"/>
-      <button type="button" name="z" class="search">Google Search</button>
-      <button type="button" class="search" id="lucky">I'm Feeling Lucky</button>
+      <button type="button" class="search" onclick="formSubmit()">Google Search</button>
+      <button type="button" class="search" id="lucky" onclick="alert('Me too ;)');">I'm Feeling Lucky</button>
     </form>
   </body>
 </html>
