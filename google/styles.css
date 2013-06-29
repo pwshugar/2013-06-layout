@@ -25,8 +25,7 @@
 }
 
 #signin {
-  position:relative;
-  top: 46px;
+  position:absolute;
   color: white;
   background-color: #FF4D4D;
   font-family: arial;
@@ -36,7 +35,10 @@
   border-radius: 5px;
   width: 80px;
   height:36px;
-  left: 2000px;
+  left:94%; 
+  top:5%;
+  margin-left: auto;
+  margin-top: auto;
 }
 
 .search {
@@ -68,11 +70,11 @@
 
 img {
   position:absolute;
-  -webkit-transform:scale(0.57);
-  left:51%; 
+  -webkit-transform:scale(1.2);
+  left:50%; 
   top:50%;
-  margin-left:-296px;
-  margin-top:-375px;
+  margin-left:-140px;
+  margin-top:-335px;
 }
 
 input {    
