@@ -6,9 +6,6 @@
   text-align: left;
   border: 1px solid;
   border-color: lightgray;
-}
-
-#topbar {
   top: 0;
   border-top: transparent;
   border-left: transparent;
@@ -17,11 +14,20 @@
 }
 
 #bottombar {
-  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 110px;
+  text-align: left;
+  border: 1px solid;
+  border-color: lightgray;
+  position:relative;
+  top:870px;
   border-bottom: transparent;
   border-left: transparent;
   border-right: transparent;
 }
+
 
 #base {
   position: relative;
@@ -31,17 +37,32 @@
 }
 
 .links {
+  position: relative;
   float: right;
-  width: 200px;
+  width: 220px;
   height: 100px;
 }
 
 .topP {
-
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: arial;
+  position: relative;
+  margin-left: 20%;
+  top: 30%;
 }
 
-botomP {
-  
+.bottomP {
+  position: relative;
+  font-family: arial;
+  top:10%;
+  margin-left: 10%;
+}
+
+.login {
+  margin-right:30%;
 }
 
 
